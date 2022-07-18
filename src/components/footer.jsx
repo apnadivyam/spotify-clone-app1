@@ -17,13 +17,17 @@ export default function Footer() {
 	return (
 		<div className="footer">
 			<div className="footer_left">
-				<img className="footer_albumLogo" src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="" />
+				<img
+					className="footer_albumLogo"
+					src="https://i.scdn.co/image/ab67616d00001e021c41f8da1a63e589a82e79d7"
+					alt=""
+				/>
 				{false ? (
 					<div className="footer_songInfo"></div>
 				) : (
 					<div className="footer_songInfo">
-						<h4>No song is playing</h4>
-						<p>...bad</p>
+						<h4>Warfare</h4>
+						<p>Satara</p>
 					</div>
 				)}
 			</div>
