@@ -4,7 +4,7 @@ import "./css/SongRow.css";
 export default function SongRow({ track }) {
 	return (
 		<div className="songRow">
-			<img src={track.album.images[2].url} alt="track album image" />
+			<img src={track.album.images[2].url} alt="track album" />
 			<div className="songRow_info">
 				<h1>{track.name}</h1>
 				<p>
